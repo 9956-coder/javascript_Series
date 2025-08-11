@@ -20,5 +20,20 @@ const customerUser= {
 customerUser.name="Shivansh";
 // console.log(customerUser[mySym])
 // console.log(customerUser["email"]);
-console.log(customerUser);
+// console.log(customerUser);
 
+const obj1={
+    name:"deepak",
+    email:"abc@gmail.com",
+    fullName:"deepak Kumar singha"
+}
+
+const obj2={
+    name:"viashnav",
+    email:"vstu@gmail.com",
+    fullName:"aman deep kaur"
+}
+
+// console.log(obj1);
+// console.log(obj2);
+console.log(Object.assign({},obj1,obj2))
